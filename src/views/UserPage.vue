@@ -111,7 +111,7 @@ export default {
     color: rgb(12, 193, 12);
     margin-bottom: 20px;
     max-width: 40%;
-
+    white-space: nowrap;
     @media (max-width: 768px) {
       max-width: 100%;
     }

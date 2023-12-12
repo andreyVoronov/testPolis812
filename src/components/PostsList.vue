@@ -143,7 +143,7 @@ export default {
     padding: 8px;
     font-size: 0.8em;
     position: absolute;
-    top:0;
+    bottom: 0;
     right: 0;
     border-radius: 4px;
     cursor: pointer;
