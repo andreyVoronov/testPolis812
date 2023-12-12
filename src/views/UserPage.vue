@@ -96,6 +96,9 @@ export default {
     font-size: 2.5em;
     color: rgb(12, 193, 12);
     margin: 20px 0;
+    @media (max-width: 640px) {
+      font-size: 2em;
+    }
   }
 
   &__flex {
