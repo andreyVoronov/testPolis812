@@ -18,10 +18,10 @@
         />
       </div>
     </div>
-    <button v-if="!isMobile" @click="prevSlide" class="slider__prev-button">
+    <button v-if="!isMobile" @click="prevSlide" class="slider__prev-button button">
       Prev
     </button>
-    <button v-if="!isMobile" @click="nextSlide" class="slider__next-button">
+    <button v-if="!isMobile" @click="nextSlide" class="slider__next-button button">
       Next
     </button>
   </div>
@@ -132,13 +132,7 @@ export default {
   &__next-button {
     display: inline-block;
     margin-top: 10px;
-    background-color: #6a0572;
-    color: rgb(12, 193, 12);
-    transition: transform 0.2s ease;
     margin-left: 20px; 
-    &:active {
-      transform: translateY(2px);
-    }
     &:not(:last-child) {
       margin-left: 0;
     }

@@ -27,4 +27,12 @@ a {
     text-decoration: underline;
   }
 }
-
+.button {
+  background-color: #6a0572;
+  color: rgb(12, 193, 12);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  &:active {
+    transform: translateY(2px);
+  }
+}
