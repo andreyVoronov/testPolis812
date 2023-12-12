@@ -1,0 +1,30 @@
+$primary-color: #6a0572; 
+$background-color: #1e1e1e; 
+$text-color: #ffffff; 
+$accent-color: #9575cd; 
+
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: 'FRM325x8', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
