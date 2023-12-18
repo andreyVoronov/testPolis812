@@ -7,8 +7,8 @@
         width: `${slideWidth}px`,
       }"
       @touchstart="handleTouchStart"
-      @touchmove="handleTouchMove"
-      @touchend="handleTouchEnd"
+      @touchmove.prevent="handleTouchMove"
+      @touchend.stop="handleTouchEnd"
     >
       <div v-for="(photo, index) in photos" :key="index" class="slider__slide">
         <img
